@@ -1,0 +1,12 @@
+create database potato;
+
+create table admin_user(
+au_id serial,
+au_username text,
+au_password text,
+constraint admin_user_pk primary key (au_id)
+);
+
+create table post(
+p_id serial,
+p_
