@@ -1,0 +1,17 @@
+28 márc. 2017 19:32:01,420 INFO  ~ Starting /Users/drexleradam/Documents/workspace/play-1.4.3/project
+28 márc. 2017 19:32:01,971 WARN  ~ You're running Play! in DEV mode
+28 márc. 2017 19:32:02,032 INFO  ~ Listening for HTTP on port 9000 (Waiting a first request to start) ...
+28 márc. 2017 19:32:19,756 INFO  ~ Connected to jdbc:postgresql:project for default
+28 márc. 2017 19:32:20,347 ERROR ~ HHH000389: Unsuccessful: drop sequence hibernate_sequence
+28 márc. 2017 19:32:20,347 ERROR ~ ERROR: sequence "hibernate_sequence" does not exist
+28 márc. 2017 19:32:20,416 INFO  ~ Application 'project' is now started !
+28 márc. 2017 19:33:17,359 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+28 márc. 2017 19:34:14,688 INFO  ~ Restart: 2 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+28 márc. 2017 19:40:01,490 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+28 márc. 2017 19:40:01,710 ERROR ~ HHH000389: Unsuccessful: alter table Post drop constraint FK_m7j5gwmpa7dklv5bnc41ertmi
+28 márc. 2017 19:40:01,710 ERROR ~ ERROR: relation "post" does not exist
+28 márc. 2017 19:54:56,010 INFO  ~ Restart: 2 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+28 márc. 2017 19:54:56,192 ERROR ~ HHH000389: Unsuccessful: alter table Comment drop constraint FK_apirq8ka64iidc18f3k6x5tc5
+28 márc. 2017 19:54:56,192 ERROR ~ ERROR: relation "comment" does not exist
+28 márc. 2017 19:57:57,495 INFO  ~ Restart: 2 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
+28 márc. 2017 20:04:40,701 INFO  ~ Restart: 1 classes changed, caused by: java.lang.UnsupportedOperationException: class redefinition failed: attempted to add a method
